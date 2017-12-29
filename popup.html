@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="popup.js"></script>
+  <script src="jquery.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <p><strong>English-Hindi Dictionary</strong></p>
+  <input id="word" class="form-control" type="text" />
+  <a id="search" class="btn meaning-btn">Search</a>
+</div>
+<div>
+  <div id="divider"></div>
+  
+  <table id="tableSearched" class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Searched word in Hindi</th>
+        </tr>
+      </thead>
+      <tbody id="load-meaning">
+      </tbody>
+  </table>
+  <div id="notFoundContainer">
+    
+  </div>
+</div>
+</body>
+</html>

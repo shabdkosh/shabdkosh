@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    height: 200px;
+    width: 300px;
+}
+#tableSearched{
+    display: none;
+}
+.container{
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 50px;
+}
+#word{
+    width: 200px;
+}
+.meaning-btn{
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+    margin-top: 20px;
+    width: 100px;
+}
+.meaning-btn:hover{
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.meaning-btn:focus{
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+#divider{
+    margin-top: 10px;
+    border-top: 1px solid #e0e0e0;
+}
+.notFound{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 30px;
+}
